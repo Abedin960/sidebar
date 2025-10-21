@@ -38,3 +38,41 @@ img{
     border-radius: 50%;
     max-width: 100%;
 }
+
+h2 {
+  color: #C62828; /* Superman-röd */
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 1.5rem;
+}
+
+footer {
+  text-align: center;
+  background-color: #0047AB;
+  color: white;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+
+
+body {
+  font-size: 13px; 
+}
+
+h1 {
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+p, li {
+  font-size: 13px;
+}
+
+footer p {
+  font-size: 12px;
+}
