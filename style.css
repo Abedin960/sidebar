@@ -8,11 +8,13 @@ aside{
 display: flex;
 flex-wrap: wrap;
    
+    background-color: lightgray;
     border: 1px solid black;
 }
 .sidebar{
 
     flex-basis: 16rem;
+    height: auto;
     flex-grow: 1;
     border: 1px solid black
 }
@@ -21,12 +23,14 @@ flex-wrap: wrap;
 
     flex-basis:0;
     flex-grow: 999;
-    min-inline-size: 50;
+    height: auto;
+    min-inline-size: 50%
     border: 1px solid
 }
 
 .wrapper{
-    max-width: 56rem;
+    max-width: 50rem;
+    height: auto;
     margin-right: auto;
     margin-left: auto; 
     border: 1px solid black;
@@ -34,7 +38,7 @@ flex-wrap: wrap;
 } 
 
 img{
-    height: 20rem;
+    height: 25rem;
     border-radius: 50%;
     max-width: 100%;
 }
@@ -53,7 +57,8 @@ footer {
   background-color: #0047AB;
   color: white;
   padding: 0.5rem;
-  margin-top: 1rem;
+  margin-top: 5.1rem;
+  
 }
 
 
