@@ -24,8 +24,8 @@ flex-wrap: wrap;
     flex-basis:0;
     flex-grow: 999;
     height: auto;
-    min-inline-size: 50%
-    border: 1px solid
+    min-inline-size: 50%;
+    border: 1px solid;
 }
 
 .wrapper{
